@@ -17,7 +17,6 @@ body {
     background-color: brown;
     font-size: x-large;
     border-radius: 0 0 15px 15px;
-    
     padding: 15px; /**********  چرا ***********/
     /* height: 50px; */
 }
@@ -43,4 +42,32 @@ a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+}
+
+.footer{
+    position: relative;
+    background-color: brown;
+    font-size: x-large;
+    border-radius: 0 0 15px 15px;
+    padding: 15px; /**********  چرا ***********/
+    /* height: 50px; */
+    top: auto;
+    margin-top: 37.5%;
+}
+
+.ip{
+    display: inline-block;
+    position: sticky;
+    top: 100%;
+    font-size: small;
+    color: beige;
+    text-align: start;
+}
+
+.center{
+   display: inline-block;
+    top: 100%;
+    font-size: small;
+    color: beige;
+    text-align: end ;
 }
