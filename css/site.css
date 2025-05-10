@@ -9,13 +9,16 @@ body {
     text-align: center;
     padding: 50px;
     text-transform: capitalize;
+    border-radius: 15px 15px 0 0;
 }
 
 .menu {
     position: relative;
     background-color: brown;
     font-size: x-large;
-    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    
+    padding: 15px; /**********  چرا ***********/
     /* height: 50px; */
 }
 
@@ -24,6 +27,7 @@ body {
     left: 0;
     top: 0;
     text-transform: capitalize;
+    padding: 0 15px;
 }
 
 .right {
@@ -31,9 +35,12 @@ body {
     right: 0;
     top: 0;
     text-transform: capitalize;
+    padding: 0 15px;
 }
 
 a {
     color: chartreuse;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
