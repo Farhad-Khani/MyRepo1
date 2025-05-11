@@ -17,11 +17,12 @@ body {
     background-color: brown;
     font-size: x-large;
     border-radius: 0 0 15px 15px;
-    padding: 15px; /**********  چرا ***********/
+    padding: 15px;
+    /**********  چرا ***********/
     /* height: 50px; */
 }
 
-.left {
+.topleft {
     position: absolute;
     left: 0;
     top: 0;
@@ -29,7 +30,7 @@ body {
     padding: 0 15px;
 }
 
-.right {
+.topright {
     position: absolute;
     right: 0;
     top: 0;
@@ -44,30 +45,30 @@ a {
     padding: 10px;
 }
 
-.footer{
+.footer {
     position: relative;
     background-color: brown;
-    font-size: x-large;
+    font-size: medium;
     border-radius: 0 0 15px 15px;
-    padding: 15px; /**********  چرا ***********/
-    /* height: 50px; */
-    top: auto;
-    margin-top: 37.5%;
+    padding: 5px;
+    height: 4%;
+    width: 99.5%;
+    margin: 100% 0 0 0;
+    color: beige;
 }
 
-.ip{
-    display: inline-block;
-    position: sticky;
-    top: 100%;
-    font-size: small;
-    color: beige;
-    text-align: start;
+.bottomleft {
+    position: absolute;
+    text-align: left;
+    /* top: 50%; */
 }
 
-.center{
-   display: inline-block;
-    top: 100%;
-    font-size: small;
-    color: beige;
-    text-align: end ;
+.bottomcenter {
+    text-align: center;
+    /* vertical-align:baseline ; */
+}
+
+.bottomright {
+    /* position: absolute; */
+    text-align: right;
 }
